@@ -1,22 +1,31 @@
-OverView-
-This project aims to reduce motorcycle thefts by providing riders with a real-time Safety Score for parking locations. By leveraging AI and data analysis, the system transforms raw urban data into actionable insights for the user
-The Problem-
-Motorcycle theft is a major pain point for riders in urban areas. Riders often lack information about the security level of specific parking spots, leading to uncertainty and high risk
-The Solution & Product Vision-
-The core of this product is a Data-Driven Safety Model. Instead of guessing, the rider receives a score from 1-10 based on:
+NotMyScoot: Product Strategy & AI Overview
+1. User Experience (UX) & Feature Set
+Dynamic Radius Selection: Users define their walking distance (e.g., 110m). The app scans the area and visualizes potential parking spots within that radius.
 
-Historical Theft Data: Analyzing frequency and patterns of thefts in the area.
+Traffic Light Risk Model: Spots are color-coded based on risk levels (Green/Yellow/Red).
 
-Surveillance Coverage: Proximity to security cameras and lighting.
+Contextual Alerts: Clicking a Red pin reveals specific risk data, such as: "High risk zone: Reported theft on March 10th."
 
-Crowdsourced Reports: Real-time updates from other riders (Social Telemetry).
-Key Features (MVP)
-Real-time Scoring: Instant calculation of the parking spot's safety level. 
-Risk Factors Breakdown: Showing the user why a score is low (e.g., "Poor lighting", "High theft rate").
-Data Visualization: Map-based view of safe zones.
-Future Roadmap
-Predictive Alerts: Notifying users if a specific area becomes high-risk during certain hours.
+2. Data Integration & Analysis
+To move from PoC to a production-grade product, the following live data sources (via APIs) are required:
 
-Hardware Integration: Connecting to IoT sensors on the motorcycle for better telemetry.
+Municipal & Police Data: Historical crime reports and verified security camera (CCTV) locations.
 
-Community Features: Allowing users to verify the presence of "Safe Parking" zones.
+Urban Infrastructure: Street lighting density and foot traffic patterns.
+
+Crowdsourced Telemetry: Real-time user reports on suspicious activity or attempted thefts.
+
+3. AI Engine & Adaptive Learning
+Dynamic Weighting: The system doesn't just show data; it learns. If a theft is reported in a previously "Green" zone, the model automatically recalibrates risk weights for that specific area.
+
+Predictive Analytics: Identifying theft patterns by time and day (e.g., increased risk in nightlife districts on Thursday nights).
+
+4. Roadmap - Future MVP Features
+Vision AI: Using the smartphone camera to scan the parking spot and confirm the presence of security cameras or physical locks.
+
+Smart Push Notifications: Immediate alerts if the risk level in your current parking spot rises suddenly due to nearby activity.
+
+"Safe Haven" Community: Connecting riders with private owners (yards/garages) offering secure parking spots for the community.
+
+Why this matters to me as a PM:
+"NotMyScoot was born from my personal need as a rider to find certainty in an uncertain urban environment. My goal was to transform 'dry' data into a real-time tool that builds user confidence. As a PM, I see this as a perfect example of a product that uses a feedback loop to provide immediate human impact.
