@@ -16,16 +16,18 @@ Urban Infrastructure: Street lighting density and foot traffic patterns.
 Crowdsourced Telemetry: Real-time user reports on suspicious activity or attempted thefts.
 
 3. AI Engine & Adaptive Learning
-Dynamic Weighting: The system doesn't just show data; it learns. If a theft is reported in a previously "Green" zone, the model automatically recalibrates risk weights for that specific area.
+Dynamic Weighting: The system doesn't just show data; it learns. If a theft is reported in a previously "Green" zone, the model automatically recalibrates risk weights for that area.
 
 Predictive Analytics: Identifying theft patterns by time and day (e.g., increased risk in nightlife districts on Thursday nights).
 
 4. Roadmap - Future MVP Features
 Vision AI: Using the smartphone camera to scan the parking spot and confirm the presence of security cameras or physical locks.
 
+Stolen Vehicle Recovery (Community Mode): Thieves often "cool down" stolen scooters by hiding them in nearby residential parking lots or alleys for 48-72 hours. This feature enables a "High Alert" mode where the community can report suspicious/abandoned vehicles, significantly increasing recovery rates.
+
 Smart Push Notifications: Immediate alerts if the risk level in your current parking spot rises suddenly due to nearby activity.
 
-"Safe Haven" Community: Connecting riders with private owners (yards/garages) offering secure parking spots for the community.
+"Safe Haven" Community: Connecting riders with private owners (yards/garages) offering secure parking spots.
 
 Why this matters to me as a PM:
 "NotMyScoot was born from my personal need as a rider to find certainty in an uncertain urban environment. My goal was to transform 'dry' data into a real-time tool that builds user confidence. As a PM, I see this as a perfect example of a product that uses a feedback loop to provide immediate human impact.
