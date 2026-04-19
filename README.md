@@ -1,4 +1,7 @@
 NotMyScoot: Product Strategy & AI Overview
+Making urban mobility safe, predictable, and stress-free
+Try the Live App here: https://notmyscoot-hzxzxspmmq566zjqjpfahu.streamlit.app/
+
 1. User Experience (UX) & Feature Set
 Dynamic Radius Selection: Users define their walking distance (e.g., 110m). The app scans the area and visualizes potential parking spots within that radius.
 
